@@ -1,8 +1,33 @@
 body {
   margin: 0;
-  background-color: slategray; /*setting this hideous bg color*/
-  
+  background-image: url("images/bg-pic.jpeg");
+  background-repeat: repeat-y;
+  background-size: auto;
+  /*setting this beautiful bg pic*/
+
 }
+
+.img {
+  height: 350px;
+  width: 350px;
+  border: 20px solid #389fff;
+  border-radius: 500%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  transform: translate(0%, 25%);
+}/*class for adjusting image sizes and position*/
+
+.img3{
+  height: 350%;
+  width: 350px;
+  border: 20px solid darkgreen;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%; 
+}
+
 .ooze {
   font-size: 50px;
   text-align: center;
@@ -27,7 +52,7 @@ main h2:hover { color: darkgreen;
   padding: 10px;
   border-radius: 60px; 
   font-family: cursive;
-  border: 30px solid darkgreen;
+  border: 30px solid  #389fff;
   color: #fff;
   margin: 60px;
   text-align: center;
@@ -37,7 +62,6 @@ main h2:hover { color: darkgreen;
 .class2 {
   background-color: black ;
   font-size: 25px;
-  text-outline: #000;
   color: white ;
   padding: 10px;
   border: 15px solid darkgreen;
@@ -61,13 +85,15 @@ main h2:hover { color: darkgreen;
   padding: 10px;
   border:25px dotted slategray;
   width: auto;
-  margin: auto;
+  margin: 50px;
   text-align: center;
 } /*custom dot box to make footer stand out*/
 
-img {
-  width: 300px;
-} /*adjusting image sizes*/
+.text2 {
+  color: whitesmoke;
+  border: black
+}
+
 
 .image-circle {
     border-radius: 50%; 
@@ -85,7 +111,7 @@ nav a {
   font-family: arial, sans-serif;
   font-size: 18px;       
   color: ghostwhite;
-  background-color: black;
+  background-color:  #389fff;
   margin: 45%;
 } /*centering and styling nav link*/
 
@@ -93,17 +119,17 @@ nav a {
   font-family: arial, sans-serif;
   text-align: center;
   text-decoration: none;
-  color: #fff;
-  border-color: #2e6da4;
-  border-radius: 500px
+  color: whitesmoke;
+  border-radius: 500%;
+  
 } /*class to make something look like a button*/
 
 a 
 
-a:link    { color: black;  }
-a:hover   { color: green; }
+a:link    { color: whitesmoke;  }
+a:hover   { color: lightblue; }
 a:active  { color: blue;  }
-}/*setting rules for links*/
+/*setting rules for links*/
 
 
 .footer {
